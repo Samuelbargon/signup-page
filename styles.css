@@ -46,17 +46,23 @@ aside {
     bottom: 0;
     color: white;
     cursor: pointer;
-    width: 101px;
+    width: 100px;
     height: 21px;
     padding-top: 10px;
     padding-left: 12px;
     padding-right: 12px;
     padding-bottom: 10px;
     border-radius: 3px;
+    background-color: rgb(107, 108, 114);
+    z-index: 100;
+}
+
+aside p {
     font-family: AvenirNext, Avenir, "Helvetica Neue";
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 21px;
+    text-align: center;
     background-color: rgb(107, 108, 114);
     z-index: 100;
 }
@@ -73,5 +79,36 @@ footer {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
-    background-color: yellow;
+    font-family: AvenirNext, Avenir, "Helvetica Neue";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.terms {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer div a {
+    color: rgb(80, 80, 80);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-style: solid;
+    padding-left: 10px;
+}
+
+footer div a:hover {
+    color: rgb(80, 80, 80);
+    text-decoration-line: underline;
+}
+
+footer div p {
+    width: 701px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
